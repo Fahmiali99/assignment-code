@@ -10,5 +10,5 @@ module.exports = {
       "primary": "#8b5cf6",
     }
   },
-  plugins: [require('flowbite/plugin')],
+  plugins: [require('flowbite/plugin'), require('flowbite-typography'),],
 };
