@@ -31,10 +31,10 @@ function TableData({ data, handleEdit, handleDeleteId, params, selectedFilter, s
                             <tr key={i} className={`border-b ${i % 2 == 0 ? `odd:bg-white dark:text-white  odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700` : `odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 dark:text-white`}`}>
                                 <th className="px-4 py-4 font-medium whitespace-nowrap">{i + 1}</th>
                                 <th className="px-6 py-4 font-medium whitespace-nowrap">{data?.name}</th>
-                                <th className="px-6 py-4 font-medium whitespace-nowrap"><Moment format="DD MMM, YYYY">{data?.date}</Moment></th>
                                 <th className="px-6 py-4 font-medium whitespace-nowrap">{data?.country}</th>
                                 <td className="px-6 py-4 font-medium whitespace-nowrap">{data?.city}</td>
                                 <td className="px-6 py-4 font-medium whitespace-nowrap">Rp. {formatPrice(data?.budget)}</td>
+                                <th className="px-6 py-4 font-medium whitespace-nowrap"><Moment format="DD MMM, YYYY">{data?.date}</Moment></th>
                                 <td className="px-6 py-4 font-medium whitespace-nowrap"><BadgeStatus status={data?.status}/></td>
                                 <td className="px-6 py-4">
                                     <div className="flex items-center">
