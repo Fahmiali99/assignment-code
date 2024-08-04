@@ -14,7 +14,7 @@ function PsbOnePage () {
 
   return (
     <Layout>
-      <Header title="Fahmi | PSB One"/>
+      <Header title="PSB One | Fahmi"/>
       <div className='w-full'>
         <h1 className=' text-xl md:text-3xl font-bold pt-36 md:pt-44'>Problem Solving Basic - <span className='text-primary'>Test 1</span></h1>
         <div className=' relative'>

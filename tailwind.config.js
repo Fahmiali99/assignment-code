@@ -8,7 +8,9 @@ module.exports = {
   theme: {
     colors: {
       "primary": "#8b5cf6",
+      "error": "#EF4444",
     }
   },
   plugins: [require('flowbite/plugin'), require('flowbite-typography'),],
 };
+  
