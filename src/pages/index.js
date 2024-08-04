@@ -1,4 +1,4 @@
-import Implement from "@/modules/implement";
+import Todo from "@/modules/todo";
 
 export const getServerSideProps = async () => {
   return {
@@ -8,4 +8,4 @@ export const getServerSideProps = async () => {
   };
 };
 
-export default Implement;
+export default Todo;
